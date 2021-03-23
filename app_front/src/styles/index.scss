@@ -1,0 +1,22 @@
+@use 'vars';
+
+  // or you can import your own font
+  @font-face {
+    font-family: 'Roboto', 'Roboto Slab';
+    src: url('../assets/fonts/Roboto-Regular.ttf'), url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+  }
+  ul {
+    list-style : none;
+  }
+  ul, li {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  }
